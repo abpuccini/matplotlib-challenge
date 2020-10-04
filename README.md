@@ -18,9 +18,9 @@ For the calculation method. >> [Click Here](https://nbviewer.jupyter.org/github/
 
 - Refer to bar chart of mice per drug regimen, there are 10 treatments in the study. The highest number of study is treated by Capomulin. On the other hand, the lowest number of study is treated by Propriva. This means the study focused toward Capomulin compared to other treatments. 
 
-- Refer to the distribution of mouse's sex across all the treatment, there are more male mice treated than female mice. However, the statistics shows only 2% difference. Sex might not be the significant variable to the study.  
+- Refer to the distribution of mouse's sex pie chart, there are more male mice treated than female mice. However, the statistics shows only 2% difference. Sex might not be the significant variable to the study. 
 
-- Refer to box plot across 4 regimens of interest and the summary statistics table, final tumor volume treated by Capomulin and Ramicane tend to have lower number than the others. Ramicane seems to have lower final tumor volume. However, the number of mice treated by Ramicane is slightly less than Capomulin. To retrieve more accurate study and conclusion, the treatment of both regimens might be continued with the same number of mice.
+- Refer to box plot across 4 regimens of interest (Capomulin, Ramicane, Infubinol, and Ceftamin) and the summary statistics table, final tumor volume treated by Capomulin and Ramicane tend to have lower number than the others. Ramicane seems to have the least final tumor volume. However, the number of mice treated by Ramicane is slightly less than Capomulin. To retrieve more accurate study and conclusion, the treatment of both regimens might be continued with the same number of mice.
 
 - Mouse ID l509 is an example of mouse treated by Capomulin, the tumor volume seems to decrease when the time has passed. Also, samples chart of 5 mice treated in the same regimen supports the assumption that Capomulin could reduce the size of tumor volumn.   
 
