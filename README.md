@@ -12,17 +12,46 @@ Analysis data file >> [Click Here](data/analysis_data.csv)
 
 For the calculation method. >> [Click Here](https://nbviewer.jupyter.org/github/abpuccini/matplotlib-challenge/blob/master/pymaceuticals_analysis.ipynb)
 
+### Observations and Insights
+
+Refer to bar chart of mice per drug regimen, there are 10 treatments in the study. The highest number of study is treated by Capomulin. On the other hand, the lowest number of study is treated by Propriva. This means the study focused toward Capomulin compared to other treatments. 
+
+Refer to the distribution of mouse's sex across all the treatment, there are more male mice treated than female mice. However, the statistics shows only 2% difference. Sex might not be the significant variable to the study.  
+
+Refer to box plot across 4 regimens of interest and the summary statistics table, final tumor volume treated by Capomulin and Ramicane tend to have lower number than the others. Ramicane seems to have lower final tumor volume. However, the number of mice treated by Ramicane is slightly less than Capomulin. To retrieve more accurate study and conclusion, the treatment of both regimens might be continued with the same number of mice.
+
+Mouse ID l509 is an example of mouse treated by Capomulin, the tumor volume seems to decrease when the time has passed. Also, samples chart of 5 mice treated in the same regimen supports the assumption that Capomulin could reduce the size of tumor volumn.   
+
+Refer to Capomulin's correlation between average weight and final tumor volumn which is 0.84, that means there is a relation between 2 variables. Also, the r-squared 0.71 could infer that the final tumor volume could be predictable by using average weight of mouse. 
+
 ### Summary Statistics
 
 ![SummaryTable](Images/summary_table.png)
 
 ### Number of Mice per Drug Regimen
 
-![MiceperDrug](Images/pd_bar_mice_per_regimen.png)
+*Using both pandas and pyplot method give the same result.*
+
+* Using Pandas
+
+![MiceperDrug_pd](Images/pd_bar_mice_per_regimen.png)
+
+* Using Pyplot
+
+![MiceperDrug_py](Images/py_bar_mice_per_regimen.png)
+
 
 ### The distribution of female vs male mice across all the treatments
 
-![MiceSex](Images/pd_pie_mice_sex.png)
+*Using both pandas and pyplot method give the same result.*
+
+* Using Pandas
+
+![MiceSex_pd](Images/pd_pie_mice_sex.png)
+
+* Using Pyplot
+
+![MiceSex_py](Images/py_pie_mice_sex.png)
 
 ### Four regimen of interest (Capomulin, Ramicane, Infubinol, and Ceftamin)
 
@@ -32,7 +61,11 @@ For the calculation method. >> [Click Here](https://nbviewer.jupyter.org/github/
 
 Timepoint and Tumor Volumn (mm3) is taken to plot.
 
-![l509](Images/mousel509_tumor_plot.png)
+![l509](Images/l509_tumor_plot.png)
+
+### Five Treatment Examples of Capomulin Treatment
+
+![fiveExamples](Images/tumor_plot.png)
 
 ### Average mouse weight and average tumor volumn (mm3)
 
